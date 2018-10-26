@@ -9,11 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var enterCurrentGrade: UILabel!
+    @IBOutlet weak var currentGrade: UITextField!
+    @IBOutlet var enterDesiredFinalGrade: UIView!
+    @IBOutlet weak var DesiredFinalGrade: UITextField!
+    @IBOutlet weak var enterPerTheFinalIsWorth: UILabel!
+    @IBOutlet weak var perTheFinaLIWorth: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
+    @IBAction func whenButtonPressed(_ sender: Any) {
+        
+    }
+    
+    
 
 
 }
